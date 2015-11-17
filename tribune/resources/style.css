@@ -55,14 +55,22 @@ body {
   font-size: 1.4em;
   font-weight: bold;
 }
+#contribute {
+  color: white !important;
+}
 #contribute:hover {
-  color: #00BF00 !important;
+  color: black !important;
 }
 #magazine:hover {
   color: #FFFF00 !important;
 }
 #contact:hover {
   color: #0000FF !important;
+}
+#home {
+  padding: 0.4em;
+  background: white;
+  border-radius: 1em 1em 0 0;
 }
 
 /* For fade out in article previews */

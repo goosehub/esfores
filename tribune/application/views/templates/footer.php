@@ -1,4 +1,4 @@
-</br><strong id="copyright">&copy; 2014</strong>
+</br><strong id="copyright">&copy; 2015</strong>
 </div>
   <div class="col-md-2">
   	<div id="rightCol"></div>

@@ -28,7 +28,8 @@
 		  <a id="investigations" type="button" class="nav-item" href="/tribune/news/showcase">Showcase</a><p class="divider"> |</p>
 		  <a id="contribute" type="button" class="nav-item" href="/tribune/news/contribute">Contribute</a><p class="divider"> |</p>
 		  <a id="magazine" type="button" class="nav-item" href="/tribunemagazine">Magazine</a><p class="divider"> |</p>
-		  <a id="contact" type="button" class="nav-item" href="/tribune/about">Contact</a>
+		  <a id="contact" type="button" class="nav-item" href="/tribune/about">Contact</a><p class="divider"> |</p>
+		  <a id="home" type="button" class="nav-item" href="/">Home</a>
 		</div>
 	</div>
 </div>
