@@ -10,6 +10,9 @@
       <script type="text/javascript" src="https://cp8.shoutcheap.com:2199/system/jquery.min.js"></script>
 
       <style>
+      body {
+        background: orange;
+      }
       #audio_stream_element {
         width: 653px;
       }
@@ -38,10 +41,18 @@
       #skype_cont img {
         margin: 0 !important;
       }
+      #link_to_channelcentral {
+        background: black;
+        color: white;
+        width: 50%;
+        padding: 1em;
+        margin: 1em;
+      }
       </style>
 
    </head>
-   <body style="background-color:orange">
+   <body>
+
        <center>
 
           <img src="logo.gif">
@@ -52,6 +63,10 @@
             <source src="http://108.178.13.122:8232/stream">
             Try a different browser to listen to this ebin stream
           </audio>
+
+          <div id="link_to_channelcentral">
+            <a href="http://channelcentral.me/esfores">Link To EsForEs Nice Radio Chat Room</a>
+          </div>
 
           <iframe id="s4s"  src="https://boards.4chan.org/s4s" frameborder="1" allowfullscreen=""></iframe>
 

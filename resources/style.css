@@ -1,4 +1,8 @@
 /*	Global */
 body {
 	background: #222;
+	color: white;
+}
+#quotes {
+	margin-left: 10%;
 }
