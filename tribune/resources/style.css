@@ -1,0 +1,206 @@
+/* global */
+@font-face {
+    font-family: reverse;
+    src: url(reverse.otf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(BebasNeue.otf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans.ttf);
+}
+body {
+    overflow-x: hidden;
+    background-color: #000000;
+    font-family: OpenSans;
+}
+
+
+/*  navbar */
+#headRow {
+  width:100%;
+  background-color: red;
+  text-align: center;
+}
+#logo {
+  font-family: reverse;
+  letter-spacing: 0.8em;
+  color: black;
+  margin-left: 0.4em;
+  font-size:2em;
+  display:inline;
+  text-shadow: 0.2em 0.2em 1em #000; ;
+}
+#logoLink {
+  text-decoration: none;
+}
+#logo:hover {
+  letter-spacing: 1em;
+}
+#navBar a {
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  text-decoration: none;
+  font-family: BebasNeue;
+  font-size: 1.4em;
+}
+#navBar a:hover {
+  color: #FFFFFF;
+}
+.divider {
+  display: inline;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+#contribute:hover {
+  color: #00BF00 !important;
+}
+#magazine:hover {
+  color: #FFFF00 !important;
+}
+#contact:hover {
+  color: #0000FF !important;
+}
+
+/* For fade out in article previews */
+ .indexText {
+  font-size: 1.2em;
+  position: relative;
+  height: 5.5em;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+.indexText:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 33%;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 33%);
+} 
+
+/*  content */
+
+h1, h2 {
+  font-family: reverse;
+}
+.indexHeadline {
+  margin-top: 0.1em;
+  font-size: 3em;
+}
+#viewTitle {
+  font-size: 5em;
+}
+#middleCol {
+    background-color: white;
+}
+.coverImage {
+    width: 100%;
+    height: auto;
+}
+.btn-group a {
+    text-decoration: none;
+    color: black;
+}
+.indexItem {
+  border-bottom-style: solid;
+}
+.readMore {
+  margin-bottom: 0.2em;
+  font-weight: bold;
+}
+/*  is used to remove a glitch that causes a line to appear next to the read more button during hover */
+.readMoreLink {
+  text-decoration: none !important;
+}
+#aboutCon {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}
+#caption
+  {
+    margin-left: 3em;
+  }
+#articleBody {
+  margin-top: 3em;
+  font-size: 1.2em;
+}
+#contribute, #latest {
+  font-weight: bold;
+}
+.articleAuthor {
+  margin-left: 2em;
+}
+#returnButton {
+  display:block;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+.articleCategory {
+  font-weight: bold;
+  color: #000;
+  background-color: #CCC;
+}
+
+
+
+/*  forms */
+.input-group-addon {
+  min-width: 8em;
+  font-size:1.1em;
+  font-weight: bold;
+}
+#contributeSubmit, #commentSubmit {
+  background-color: #DDD;
+  width: 33%;
+  margin-left: 33%;
+}
+.btn-input {
+   display: block;
+}
+.btn-input .btn.form-control {
+    text-align: left;
+}
+.btn-input .btn.form-control span:first-child {
+   left: 10px;
+   overflow: hidden;
+   position: absolute;
+   right: 25px;
+}
+.btn-input .btn.form-control .caret {
+   margin-top: -1px;
+   position: absolute;
+   right: 10px;
+   top: 50%;
+}
+#inputAuthor, #inputCategory {
+  width:20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea {
+  resize:vertical;
+}
+#contributeHeadline {
+  text-align: center;
+}
+
+
+/*  ect */
+.advertImage {
+  padding: 5%;
+  width:90%;
+}
+#copyright {
+  padding: 2em;
+  display: inline;
+}

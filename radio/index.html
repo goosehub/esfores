@@ -1,0 +1,110 @@
+<html>
+   <head>
+      <title>This is Nice Radio</title>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="A journey of a single step begins with a thousand miles.">
+
+      <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-analytics.js"></script>
+      <script type="text/javascript" src="https://cp8.shoutcheap.com:2199/system/jquery.min.js"></script>
+
+      <style>
+      #audio_stream_element {
+        width: 653px;
+      }
+      #s4s {
+        height: 95vh;
+        width: 100%;
+      }
+      #dank {
+        height: 80%;
+        width: 80%;
+      }
+      #stats {
+        background: #222;
+        padding: 1em;
+        border: 5px solid #fff;
+        border-radius: 2em;
+        color: #ddd;
+        font-family: Georgia;
+        width: 33%;
+        margin: 3em;
+        text-align: left;
+      }
+      #cc_tunein {
+        text-align: center;
+      }
+      #skype_cont img {
+        margin: 0 !important;
+      }
+      </style>
+
+   </head>
+   <body style="background-color:orange">
+       <center>
+
+          <img src="logo.gif">
+
+          <br/>
+
+          <audio controls autoplay id="audio_stream_element">
+            <source src="http://108.178.13.122:8232/stream">
+            Try a different browser to listen to this ebin stream
+          </audio>
+
+          <iframe id="s4s"  src="https://boards.4chan.org/s4s" frameborder="1" allowfullscreen=""></iframe>
+
+          <div id="stats">
+
+            <span id="cc_strinfo_summary_niceradi" class="cc_streaminfo"><a href="https://cp8.shoutcheap.com:2199/tunein/-stream/niceradi.pls">Direct Stream</a></span>
+
+            <br>
+            Stream title: <span id="cc_strinfo_title_niceradi" class="cc_streaminfo">Nice Radio Stream</span><br>
+            Bit rate: <span id="cc_strinfo_bitrate_niceradi" class="cc_streaminfo">64 Kbps</span><br>
+            Current listeners: <span id="cc_strinfo_listeners_niceradi" class="cc_streaminfo">2</span><br>
+            Maximum listeners: <span id="cc_strinfo_maxlisteners_niceradi" class="cc_streaminfo">50</span><br>
+            Server status: <span id="cc_strinfo_server_niceradi" class="cc_streaminfo">Online</span><br>
+            AutoDJ status: <span id="cc_strinfo_autodj_niceradi" class="cc_streaminfo">Online</span><br>
+            Source connected: <span id="cc_strinfo_source_niceradi" class="cc_streaminfo">Yes</span><br>
+            Station time: <span id="cc_strinfo_date_niceradi" class="cc_streaminfo">Nov 11, 2015</span> <span id="cc_strinfo_time_niceradi" class="cc_streaminfo">06:30 PM</span><br>
+            Current playlist: <span id="cc_strinfo_playlist_niceradi" class="cc_streaminfo"></span> <span id="cc_strinfo_playlist_niceradi" class="cc_streaminfo"></span><br>
+            Track details: <span id="cc_strinfo_trackartist_niceradi" class="cc_streaminfo">Le Radioman</span> - <span id="cc_strinfo_tracktitle_niceradi" class="cc_streaminfo">TEST</span> - <span id="cc_strinfo_trackalbum_niceradi" class="cc_streaminfo">s4s] Radio</span><br>
+            Raw metadata: <span id="cc_strinfo_rawmeta_niceradi" class="cc_streaminfo">Le Radioman - [s4s] Radio - TEST</span><br>
+
+            <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+            <div id="skype_cont">
+              <div id="SkypeButton_Call_le.radioman_1">
+                 <script type="text/javascript">
+                    Skype.ui({
+                    "name": "call",
+                    "element": "SkypeButton_Call_le.radioman_1",
+                    "participants": ["le.radioman"],
+                    "imageSize": 36
+                    });
+                 </script><iframe style="display:none;" id="_detectSkypeClient_1447288198060"></iframe>
+              </div>
+            </div>
+
+            <div id="cc_tunein">
+               <a href="https://cp8.shoutcheap.com:2199/tunein/niceradi.pls"><img align="absmiddle" src="https://cp8.shoutcheap.com:2199/system/images/tunein-pls.png" border="0" alt="Winamp, iTunes" title="Winamp, iTunes"></a>
+               <a href="https://cp8.shoutcheap.com:2199/tunein/niceradi.asx"><img align="absmiddle" src="https://cp8.shoutcheap.com:2199/system/images/tunein-asx.png" border="0" alt="Windows Media Player" title="Windows Media Player"></a>
+               <a href="https://cp8.shoutcheap.com:2199/tunein/niceradi.ram"><img align="absmiddle" src="https://cp8.shoutcheap.com:2199/system/images/tunein-ram.png" border="0" alt="Real Player" title="Real Player"></a>
+               <a href="https://cp8.shoutcheap.com:2199/tunein/niceradi.qtl"><img align="absmiddle" src="https://cp8.shoutcheap.com:2199/system/images/tunein-qtl.png" border="0" alt="QuickTime" title="QuickTime"></a>
+            </div>
+
+          </div>
+
+          <button>Click me</button>
+
+          <script>$('button').click(function(){
+            $('body').append('<center><iframe id="dank"  src="http://www.dankmaymays.com" frameborder="1" allowfullscreen=""></iframe></center>');
+          });
+          </script>
+
+       </center>
+      <script language="javascript" type="text/javascript" src="https://cp8.shoutcheap.com:2199/system/streaminfo.js"></script>
+      <script language="javascript" type="text/javascript" src="https://cp8.shoutcheap.com:2199/system/player.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cp8.shoutcheap.com:2199/jplayer/skin/blue.monday/css/jplayer.blue.monday.css">
+   </body>
+</html>
