@@ -2,7 +2,19 @@
 body {
 	background: #222;
 	color: white;
+	overflow-x: hidden;
 }
-#quotes {
-	margin-left: 10%;
+.tile {
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Reenie Beanie', cursive;
+	text-decoration: default;
+}
+.tile a {
+	color: inherit;
+}
+.tile:hover, .tile:hover a {
+	background-color: black !important;
+	color: white !important;
 }
