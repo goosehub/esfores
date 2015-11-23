@@ -5,7 +5,8 @@
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="A journey of a single step begins with a thousand miles.">
-		<script type="text/javascript" src="srcipts/ctrl.js"></script>
+		<script type="text/javascript" src="scripts/ctrl.js"></script>
+		<script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script> 
 		<link rel="StyleSheet" href="scripts/style.css" type="text/css"></link>
 	</head>
 	<body onLoad="main()">
@@ -22,7 +23,7 @@
 		</div>
 		<center>
 			<div class="logo">
-				<img height="100px" src="img/nr.png"></img>
+				<img height="100px" alt="Click to Reload" src="img/nr.png" onClick="window.location.reload()"></img>
 				<p class="boardTitle">Nice Radio</p>
 			</div>
 			<div class="playinginfo">
@@ -39,13 +40,14 @@
 					<source src="http://108.178.13.122:8232/stream">
 					Try a different browser to listen to this ebin stream
 				</audio>
+				<audio id="stinger"><source src="audio/thisisniceradio.mp3"></audio>
 				<div class="directstream">
 					[ <a href="https://cp8.shoutcheap.com:2199/tunein/-stream/niceradi.pls">Get Direct Stream</a> ]
 				</div>
 			</div>
 		</center>
 		<div class="bottom-left">
-			<img height="250px" src="img/signal.gif"></img>
+			<img height="250px" src="img/signal.gif" onClick="playSound()"></img>
 		</div>
 		<div class="bottom-left">
 			<span>:^)</span>

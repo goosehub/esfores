@@ -11,6 +11,9 @@ function reloadLoop() {
 		reloadLoop();
 	}, 1000);
 }
+function playSound() {
+	document.getElementById('stinger').play();
+}
 function tildeLoop(onLoop, tc, toprint) {
 	setTimeout(function () {
 		for (var i = 0; i < onLoop; i++) {
@@ -21,7 +24,6 @@ function tildeLoop(onLoop, tc, toprint) {
 			lelements[i].innerHTML = toprint; 
 		};
 		onLoop++;
-		console.log(onLoop);
 		if (onLoop == tc){
 			onLoop = 1;
 		}
