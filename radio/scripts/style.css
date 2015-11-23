@@ -1,5 +1,5 @@
 body {
-	background:url('img/fade.png') repeat-x scroll center top #FFFFEE;
+	background:url('../img/fade.png') repeat-x scroll center top #FFFFEE;
 	color: #800000;
 	overflow:auto;
 	padding-bottom: 150px;
