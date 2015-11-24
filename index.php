@@ -31,50 +31,44 @@
 
 <body>
     <!-- Body -->
-<!-- 
-	<ul class="nav nav-pills">
-	  <li role="presentation" class="active"><a href="/">esfores</a></li>
-	  <li role="presentation"><a href="radio">Nice Radio</a></li>
-	  <li role="presentation"><a href="tribune">Tribune Online</a></li>
-	  <li role="presentation"><a href="tribunemagazine">Tribune Magazine</a></li>
-	  <li role="presentation"><a href="http://channelcentral.me/esfores">EsForEs Chat Room</a></li>
-	  <li role="presentation"><a href="random">Random</a></li>
-	</ul>
 
-	<h4>What the people are saying about EsForEs.com</h4>
-
-	<div id="quotes">
-
-		<blockquote>
-		  <p>so fantastically autistic</p>
-		</blockquote>
-		<strong>Anonymous</strong>
-
-	</div>
- -->
 	<div class="row">
 		<div class="col-md-4">
 			<div class="tile">
 				<h1>Welcome to EsForEs</h1>
 			</div>
-			<div class="tile">
-				<a href="random"><h2>?</h2></a>
-			</div>
+			<a class="tile_link" href="random">
+				<div class="tile">
+					<h2>?</h2>
+				</div>
+			</a>
 		</div>
 		<div class="col-md-4">
-			<div class="tile">
-				<a href="radio"><h2>Nice Radio</h2></a>
-			</div>
-			<div class="tile">
-				<a href="http://channelcentral.me/esfores"><h2>esfores Chat</h2></a>
-			</div>
+			<a class="tile_link" href="radio">
+				<div class="tile">
+					<h2>Nice Radio</h2>
+				</div>
+			</a>
+			<a class="tile_link" href="http://channelcentral.me/esfores">
+				<div class="tile">
+					<h2>esfores Chat</h2>
+				</div>
+			</a>
 		</div>
 		<div class="col-md-4">
-			<div class="tile">
-				<a href="tribune"><h2>Tribune Online</h2></a>
-			</div>
-			<div class="tile">
-				<a href="tribunemagazine"><h2>Tribune Magazine</h2></a>
+			<a class="tile_link" href="tribune/news">
+				<div class="tile">
+					<h2>Tribune Online</h2>
+				</div>
+			</a>
+			<a class="tile_link" href="tribunemagazine">
+				<div class="tile">
+					<h2>Tribune Magazine</h2>
+				</div>
+			</a>
+			<br>
+			<div id="water" class="tile">
+				<img class="tile_img" src="resources/pics/water.png"/>
 			</div>
 		</div>
 	</div>

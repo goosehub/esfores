@@ -11,10 +11,13 @@ body {
 	font-family: 'Reenie Beanie', cursive;
 	text-decoration: default;
 }
-.tile a {
+.tile_link {
 	color: inherit;
 }
 .tile:hover, .tile:hover a {
 	background-color: black !important;
 	color: white !important;
+}
+.tile_img {
+	width: 100%;
 }
