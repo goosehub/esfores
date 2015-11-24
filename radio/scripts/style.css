@@ -29,13 +29,22 @@ a:hover {
 	right: 0;
 }
 .logo {
-	padding-top: 4%;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
 .playinginfo {
     height: 10%;
     position: absolute;
     top:0;
-    bottom: 0;
+    left:0;
+    right:0;
+
+    margin: auto;
+}
+.irc {
+    position: absolute;
+    bottom:0;
     left: 0;
     right: 0;
 

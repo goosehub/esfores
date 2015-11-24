@@ -1,8 +1,9 @@
 function main(){
+	window.isPaused = true;
+	playpause();
 	//this loop makes sure that the stats are updated every second
-	window.isPaused = false;
-	window.dotLoop = false;
 	reloadLoop();
+	//this loop makes a tilde animation
 	tildeLoop(1, 4, "");
 }
 function reloadLoop() {
@@ -40,11 +41,11 @@ function reloadStats() {
 function playpause() {
 	if (window.isPaused === true){
 		document.getElementById('audio_stream_element').play();
-		document.getElementById('controls').innerHTML = "▶ ♫On Air♫";
+		document.getElementById('controls').innerHTML = "♫Tuned In♫";
 		window.isPaused = false;
 	}else{
 		document.getElementById('audio_stream_element').pause();
-		document.getElementById('controls').innerHTML = "█ Paused...";
+		document.getElementById('controls').innerHTML = "Paused :^)";
 		window.isPaused = true;
 	}
 }

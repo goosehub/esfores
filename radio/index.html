@@ -11,14 +11,7 @@
 	</head>
 	<body onLoad="main()">
 		<div class="navbar">
-			<span class="navbartext">
-			<span>[</span>
-			<a href="../">home</a>
-			<span>/</span>
-			<a href="http://channelcentral.me/esfores">nice radio chat room</a>
-			<span>/</span>
-			<a href="http://esfores.bandcamp.com">♫esfores bandcamp♫</a>
-			<span>]</span>
+			[ <a href="../">home</a> / <a href="http://channelcentral.me/esfores">nice radio chat room</a> ] [ <a href="http://esfores.bandcamp.com">♫bandcamp♫</a> / <a href="http://boards.4chan.org/s4s/catalog">s4s</a> ]
 			</span>
 		</div>
 		<center>
@@ -34,9 +27,9 @@
 					<span id="cc_strinfo_trackartist_niceradi" class="cc_streaminfo"></span>: <span id="cc_strinfo_trackalbum_niceradi" class="cc_streaminfo"></span>
 				</div>	
 				<div class="controls">
-					<span class="tilde"></span>[ <span id="controls" class="textButton" onClick="playpause()">▶ ♫On Air♫</span> ]<span class="tilde"></span>
+					<span class="tilde"></span>[ <span id="controls" class="textButton" onClick="playpause()"></span> ]<span class="tilde"></span>
 				</div>
-				<audio autoplay id="audio_stream_element">
+				<audio id="audio_stream_element">
 					<source src="http://108.178.13.122:8232/stream">
 					Try a different browser to listen to this ebin stream
 				</audio>
@@ -44,6 +37,10 @@
 				<div class="directstream">
 					[ <a href="https://cp8.shoutcheap.com:2199/tunein/-stream/niceradi.pls">Get Direct Stream</a> ]
 				</div>
+			</div>
+			<div class="irc">
+				[ <a>chat</a> ]<br>
+				<iframe width="50%" height="400px" scrolling="no" src="http://widget.mibbit.com/?settings=ca3341d6aa8b873c29053e42b580d0e9&server=irc.mibbit.net%3A%2B6697&channel=%23leradiochat"></iframe>
 			</div>
 		</center>
 		<div class="bottom-left">
