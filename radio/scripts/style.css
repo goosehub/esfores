@@ -1,0 +1,111 @@
+body {
+	background:url('../img/fade.png') repeat-x scroll center top #FFFFEE;
+	color: #800000;
+	overflow:auto;
+	padding-bottom: 150px;
+}
+.boardTitle {
+	font-family: Tahoma,sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+}
+a {
+	color: #800000;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	text-align: center;
+}
+.bottom-left {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+.playinginfo {
+    height: 10%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+
+    margin: auto;
+}
+.irc {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+.stats {
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+}
+.stats span {
+	color: red;
+}
+.stats:hover .xtrastats {
+	opacity: 1;
+}
+.xtrastats {
+    -webkit-transition: .4s ease-in-out opacity;
+    -moz-transition: .4s ease-in-out opacity;
+    -o-transition: .4s ease-in-out opacity;
+    transition: .4s ease-in-out opacity;
+    opacity: 0;
+}
+.tilde {
+    opacity: 0;
+}
+.songTitle {
+	font-family: Tahoma,sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.songInfo {
+	font-family: Tahoma,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.controls {
+	font-family: Tahoma,sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
+.controls:hover .tilde {
+	opacity: 1;
+}
+.textButton:hover {
+	color: red;
+}
+.directstream {
+	font-family: Tahoma,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-top: 0px;
+	padding: 0.25%;
+}
