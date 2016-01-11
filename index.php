@@ -32,6 +32,10 @@
   #boards .column {
     width: 100%;
   }
+  .reply_col {
+    border: 1px solid #222;
+    overflow: hidden;    
+  }
   .reply {
     color: #800000;
     font-family: arial,helvetica,sans-serif;
@@ -40,6 +44,10 @@
     margin: inherit;
     font-size: inherit;
     border-left: inherit;
+  }
+  .reply blockquote {
+    max-height: 600px;
+    overflow: hidden;
   }
   /* Green Text */
   .greentext {
@@ -132,7 +140,7 @@ $homepage_query = "SELECT *
   <div class="row">
     <div class="col-md-2">
     </div>
-    <div class="col-md-8">
+    <div class="reply_col col-md-8">
 
       <?php // Loop through comments
       if ($query_result = mysqli_query($con, $homepage_query)) {

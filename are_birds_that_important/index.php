@@ -27,6 +27,7 @@
   /* Opinion titles */
   .birds_are_important, .birds_are_not_that_important {
     border: 1px solid #222;
+    overflow: hidden;
   }
   /* Board title */
   .boardTitle {
@@ -40,6 +41,10 @@
     margin: inherit;
     font-size: inherit;
     border-left: inherit;
+  }
+  .reply blockquote {
+    max-height: 600px;
+    overflow: hidden;
   }
   /* Green Text */
   .greentext {
