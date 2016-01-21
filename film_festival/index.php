@@ -86,8 +86,6 @@
             $from = 'Potential Film Maker'; 
             $to = 'goosepostbox@gmail.com'; 
             $subject = '/s4s/ Film Festival ';
-            
-            $body = "From: $name\n E-Mail: $email\n Youtube URL: $youtube\n Message:\n $message";
      
             // Check if name has been entered
             if (!$_POST['name']) {
@@ -114,21 +112,39 @@
                 echo $errHuman = 'The answer is topkek';
             }
 
-            $headers   = array();
-            $headers[] = "MIME-Version: 1.0";
-            $headers[] = "Content-type: text/plain; charset=iso-8859-1";
-            $headers[] = "From: Sender Name <$email>";
-            $headers[] = "Subject: {$subject}";
-            $headers[] = "X-Mailer: PHP/".phpversion();
-     
             // If there are no errors, send the email
             if (!isset($errName) && !isset($errEmail) && !isset($errYoutube) && !isset($errMessage) && !isset($errHuman)) {
-                if (mail ($to, $subject, $body, implode("\r\n", $headers))) {
-                    $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-                } else {
-                    $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
-                }
+
+              // Load PHPMailer
+              require_once '../resources/PHPMailer-5.2.9/PHPMailerAutoload.php';
+              $mail = new PHPMailer;
+
+              // Configure
+              $mail->CharSet = 'UTF-8';
+              $mail->isHTML(false);
+              $mail->From = 'webform@esfores.com';
+              $mail->FromName = '/s4s/ Director';
+              // Add recipitants
+              $mail->addAddress('goosepostbox@gmail.com');
+              // Construct the email
+              $mail->Subject = '/s4s/ Film Festival';
+            
+              $body = "From: $name\n E-Mail: $email\n Youtube URL: $youtube\n Message:\n $message";
+
+              // Attach message
+              $mail->Body = $body;
+
+              // Send mail
+              if(!$mail->send()) {
+                $result = '<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+              } 
+              else 
+              {
+                $result = '<div class="alert alert-success">Thank You! I will be in touch</div>';
+              }
+
             }
+
         }
     ?>
 
