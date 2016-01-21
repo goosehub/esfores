@@ -1,2 +1,8 @@
 le radioman stream
 	http://108.178.13.122:8232/stream
+
+s4s film festival
+
+    Welcome to the s4s Film Festival!
+
+    We're a group of random dudes from the Internet, making films for an anonymous imageboard. Have fun with some buds (or paid actors), start shooting some cool video, and submit it to this website (hopefully Jameson can do something like that idk). You can always ask Jameson or Me (Filmbro) if you have any questions!

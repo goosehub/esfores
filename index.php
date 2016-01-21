@@ -85,23 +85,52 @@
     </div>
     <div class="boxcontent">
 
-    <div class="column">
-    <h3 style="text-decoration: underline; display: inline;">Pages</h3>
-    <ul>
-    <li><a href="are_birds_that_important" class="boardlink" title="Are Birds That Important?">Are Birds That Important?</a></li>
-    <li><a href="tribunemagazine" class="boardlink" title="Tribune Magazine">Tribune Magazine</a></li>
-    <li><a href="tribune/news" class="boardlink" title="Tribune News Online">Tribune News Online</a></li>
-    <li><a href="http://channelcentral.me/esfores" class="boardlink" title="esfores Chat">esfores Chat</a></li>
-    <li><a href="radio" class="boardlink" title="radio">Nice Radio</a></li>
-    <li><a href="http://landgrab.xyz/world/4chan" class="boardlink" title="4chan world">4chan world</a></li>
-    <li><a href="resources/pics/water.png" class="boardlink" title="water">water</a></li>
-    <!-- <li><a href="random" class="boardlink" title="random">random</a></li> -->
-    </ul>
+    <div class="row">
+      <div class="col-md-3">
+        <h3 style="text-decoration: underline; display: inline;">Nice</h3>
+        <ul>
+          <li><a href="radio" class="boardlink" title="radio">Nice Radio</a></li>
+          <li><a href="http://channelcentral.me/esfores" class="boardlink" title="esfores Chat">esfores Channel</a></li>
+          <li><a href="tribune/news" class="boardlink" title="Tribune News Online">Tribune News Online</a></li>
+          <li><a href="are_birds_that_important" class="boardlink" title="Are Birds That Important?">Are Birds That Important?</a></li>
+          <li><a href="film_festival" class="boardlink" title="/s4s/ 2016 Film Festival">/s4s/ 2016 Film Festival</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h3 style="text-decoration: underline; display: inline;">Never 4get</h3>
+        <ul>
+          <li><a href="http://archive.4plebs.org/s4s/" class="boardlink" title="Archive">Archive</a></li>
+          <li><a href="http://s4s.wikia.com/wiki//s4s/_Wiki" class="boardlink" title="S4S Encyclopedia">esfores Encyclopedia</a></li>
+          <li><a href="https://encyclopediadramatica.se/S4s/" class="boardlink" title="S4S Encyclopedia">S4S Encyclopedia</a></li>
+          <li><a href="https://archive.is/M5doA" class="boardlink" title="kek">kek</a></li>
+          <li><a href="http://s4s.wikia.com/wiki/Category:Newspapers" class="boardlink" title="Newspaper">Newspaper</a></li>
+          <li><a href="tribunemagazine" class="boardlink" title="Tribune Magazine">Tribune Magazine</a></li>
+          <li><a href="http://www.mediafire.com/download/qyuikuy7u5tqx7x/s4s.exe" class="boardlink" title="S4S Vidya Game">S4S Vidya Game</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h3 style="text-decoration: underline; display: inline;">Check the dubs</h3>
+        <ul>
+          <li><a href="http://www.lupchan.org/s4s/" class="boardlink" title="lupchan">lupchan</a></li>
+          <li><a href="boards.4chan.org/s4s/" class="boardlink" title="/s4s/">/s4s/</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h3 style="text-decoration: underline; display: inline;">Shitposting</h3>
+        <ul>
+          <li><a href="http://landgrab.xyz/" class="boardlink" title="Landgrab">Landgrab</a></li>
+          <li><a href="http://channelcentral.me/" class="boardlink" title="Channel Central">Channel Central</a></li>
+          <li><a href="http://esfores.com/" class="boardlink" title="esfores.com">esfores.com</a></li>
+        </ul>
+      </div>
+
     </div>
+
     <br class="clear-bug">
-    </div>
-    </div>
-    </div>
 
   </div>
 </div>
@@ -133,7 +162,7 @@ include 'connect.php';
 // Not That Important
 $homepage_query = "SELECT *
         from homepage
-        ORDER BY id ASC
+        ORDER BY id DESC
         LIMIT 10000;";
 ?>
 
@@ -162,6 +191,10 @@ $homepage_query = "SELECT *
     <div class="col-md-2">
     </div>
   </div>
+
+  <hr>
+
+  <iframe width="100%" height="500px" src="https://www.youtube.com/embed/Lj9vGuFAJsU" frameborder="0" allowfullscreen></iframe>
 
     <!-- Script -->
   <script type="text/javascript" src="resources/tools/jquery-1.8.3.min.js"></script>
