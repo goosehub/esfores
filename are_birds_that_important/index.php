@@ -161,7 +161,7 @@ $not_that_important_query = "SELECT *
         <div id="p4070865" class="post reply">
           <div class="postInfo desktop">
             <span class="nameBlock"><span class="name"><?php echo htmlentities($row['name']); ?></span> </span> 
-            <span class="dateTime"><?php echo date('d/m/Y(D)H:i:s', strtotime($row['timestamp'])); ?></span> 
+            <span class="dateTime"><?php echo date('m/d/Y(D)H:i:s', strtotime($row['timestamp'])); ?></span> 
             <span class="postNum desktop">
               <a href="#" title="Link to this post">No.</a><a href="#" title="This link does nothing"><?php echo $row['id']; ?></a>
             </span>
@@ -186,7 +186,7 @@ $not_that_important_query = "SELECT *
         <div id="p4070865" class="post reply">
           <div class="postInfo desktop">
             <span class="nameBlock"><span class="name"><?php echo htmlentities($row['name']); ?></span> </span> 
-            <span class="dateTime"><?php echo date('d/m/Y(D)H:i:s', strtotime($row['timestamp'])); ?></span> 
+            <span class="dateTime"><?php echo date('m/d/Y(D)H:i:s', strtotime($row['timestamp'])); ?></span> 
             <span class="postNum desktop">
               <a href="#" title="Link to this post">No.</a><a href="#" title="This link does nothing"><?php echo $row['id']; ?></a>
             </span>
